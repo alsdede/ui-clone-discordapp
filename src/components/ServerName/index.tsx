@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Title, ExpandIcon } from './styles';
 
-const ServerName: React.FC = () => {
+const ChannelMessage: React.FC = () => {
   return (
     <Container>
       <Title>Servidor do André</Title>
@@ -11,4 +11,4 @@ const ServerName: React.FC = () => {
   );
 };
 
-export default ServerName;
+export default ChannelMessage;
